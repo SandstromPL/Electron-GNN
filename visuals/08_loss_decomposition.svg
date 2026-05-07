@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="660" viewBox="0 0 1040 660">
+<defs>
+<style>text{font-family:'Inter','Segoe UI',Arial,sans-serif}.mono{font-family:'JetBrains Mono','Fira Code','Courier New',monospace}</style>
+<linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+<linearGradient id="gblue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f6feb"/><stop offset="100%" stop-color="#0d419d"/></linearGradient>
+<linearGradient id="ggreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2ea043"/><stop offset="100%" stop-color="#196c2e"/></linearGradient>
+<linearGradient id="gpurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8957e5"/><stop offset="100%" stop-color="#553098"/></linearGradient>
+<linearGradient id="gorange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9e6a03"/><stop offset="100%" stop-color="#5a3e00"/></linearGradient>
+<linearGradient id="gred" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b91c1c"/><stop offset="100%" stop-color="#7f1d1d"/></linearGradient>
+<linearGradient id="gcyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e7490"/><stop offset="100%" stop-color="#164e63"/></linearGradient>
+<linearGradient id="gteal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#134e4a"/></linearGradient>
+<linearGradient id="gdark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161b22"/><stop offset="100%" stop-color="#0d1117"/></linearGradient>
+<marker id="ablue"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#58a6ff"/></marker>
+<marker id="agreen"  markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#3fb950"/></marker>
+<marker id="aorange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#e3b341"/></marker>
+<marker id="ared"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#f85149"/></marker>
+<marker id="apurple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a371f7"/></marker>
+<marker id="acyan"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#76e3ea"/></marker>
+<marker id="adim"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#8b949e"/></marker>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.6"/></filter>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1040" height="660" fill="url(#gbg)"/>
+<rect x="0" y="0" width="1040" height="75" rx="0" fill="#161b22" stroke="#30363d" stroke-width="0" opacity="1"/>
+<line x1="0" y1="75" x2="1040" y2="75" stroke="#30363d" stroke-width="1"/>
+<text x="520" y="32" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="700">Multi-Term Loss Function Decomposition</text>
+<text x="520" y="57" font-size="12" fill="#8b949e" text-anchor="middle" font-weight="normal">L_total = L_bipartite + λ_spec · L_spectrum    where λ_spec = 0.3</text>
+<rect x="18" y="92" width="1004" height="78" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<rect x="22" y="100" width="55" height="62" rx="5" fill="#58a6ff" stroke="none" stroke-width="1.5" opacity="0.2"/>
+<text x="49" y="129" font-size="14" fill="#58a6ff" text-anchor="middle" font-weight="700">×8.0</text>
+<text x="90" y="123" font-size="12" fill="#58a6ff" text-anchor="start" font-weight="700">Frequency Match</text>
+<text x="90" y="140" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">L_freq</text>
+<text x="92" y="156" font-size="9" fill="#8b949e" text-anchor="start" class="mono">SmoothL1(ω_pred[matched] − ω_true)</text>
+<text x="92" y="170" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">Primary frequency alignment. Hungarian-matched pairs only.</text>
+<rect x="660" y="110" width="330" height="20" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5" opacity="1"/>
+<rect x="660" y="110" width="106" height="20" rx="4" fill="#58a6ff" stroke="none" stroke-width="1.5" opacity="0.85"/>
+<text x="998" y="124" font-size="10" fill="#58a6ff" text-anchor="start" font-weight="600">32%</text>
+<text x="713" y="148" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">β = 0.02</text>
+<rect x="18" y="174" width="1004" height="78" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<rect x="22" y="182" width="55" height="62" rx="5" fill="#e3b341" stroke="none" stroke-width="1.5" opacity="0.2"/>
+<text x="49" y="211" font-size="14" fill="#e3b341" text-anchor="middle" font-weight="700">×8.0</text>
+<text x="90" y="205" font-size="12" fill="#e3b341" text-anchor="start" font-weight="700">Amplitude Match (Log-scale)</text>
+<text x="90" y="222" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">L_amp</text>
+<text x="92" y="238" font-size="9" fill="#8b949e" text-anchor="start" class="mono">SmoothL1(log1p(1e4·B_pred) − log1p(1e4·B_true))</text>
+<text x="92" y="252" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">Log-scale suppresses large amplitude magnitudes. Stabilises training.</text>
+<rect x="660" y="192" width="330" height="20" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5" opacity="1"/>
+<rect x="660" y="192" width="106" height="20" rx="4" fill="#e3b341" stroke="none" stroke-width="1.5" opacity="0.85"/>
+<text x="998" y="206" font-size="10" fill="#e3b341" text-anchor="start" font-weight="600">32%</text>
+<text x="713" y="230" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">β = 0.02  ·  scale = 1e4</text>
+<rect x="18" y="256" width="1004" height="78" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<rect x="22" y="264" width="55" height="62" rx="5" fill="#a371f7" stroke="none" stroke-width="1.5" opacity="0.2"/>
+<text x="49" y="293" font-size="14" fill="#a371f7" text-anchor="middle" font-weight="700">×6.0</text>
+<text x="90" y="287" font-size="12" fill="#a371f7" text-anchor="start" font-weight="700">Total Amplitude Conservation</text>
+<text x="90" y="304" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">L_sum</text>
+<text x="92" y="320" font-size="9" fill="#8b949e" text-anchor="start" class="mono">SmoothL1( ΣB_pred − ΣB_true )</text>
+<text x="92" y="334" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">Ensures global spectral area (integrated oscillator strength) is preserved.</text>
+<rect x="660" y="274" width="330" height="20" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5" opacity="1"/>
+<rect x="660" y="274" width="80" height="20" rx="4" fill="#a371f7" stroke="none" stroke-width="1.5" opacity="0.85"/>
+<text x="998" y="288" font-size="10" fill="#a371f7" text-anchor="start" font-weight="600">24%</text>
+<text x="700" y="312" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">β = 0.01</text>
+<rect x="18" y="338" width="1004" height="78" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<rect x="22" y="346" width="55" height="62" rx="5" fill="#3fb950" stroke="none" stroke-width="1.5" opacity="0.2"/>
+<text x="49" y="375" font-size="14" fill="#3fb950" text-anchor="middle" font-weight="700">×1.2</text>
+<text x="90" y="369" font-size="12" fill="#3fb950" text-anchor="start" font-weight="700">Existence Probability  (BCE)</text>
+<text x="90" y="386" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">L_prob</text>
+<text x="92" y="402" font-size="9" fill="#8b949e" text-anchor="start" class="mono">BinaryCrossEntropy( p_pred, target_mask )</text>
+<text x="92" y="416" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">target_mask[matched_slots]=1, rest=0. Trains the slot existence head.</text>
+<rect x="660" y="356" width="330" height="20" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5" opacity="1"/>
+<rect x="660" y="356" width="16" height="20" rx="4" fill="#3fb950" stroke="none" stroke-width="1.5" opacity="0.85"/>
+<text x="998" y="370" font-size="10" fill="#3fb950" text-anchor="start" font-weight="600">5%</text>
+<text x="668" y="394" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Applied to all K_max slots</text>
+<rect x="18" y="420" width="1004" height="78" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<rect x="22" y="428" width="55" height="62" rx="5" fill="#f85149" stroke="none" stroke-width="1.5" opacity="0.2"/>
+<text x="49" y="457" font-size="14" fill="#f85149" text-anchor="middle" font-weight="700">×1.0</text>
+<text x="90" y="451" font-size="12" fill="#f85149" text-anchor="start" font-weight="700">Unmatched Slot Suppression</text>
+<text x="90" y="468" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">L_unmatched</text>
+<text x="92" y="484" font-size="9" fill="#8b949e" text-anchor="start" class="mono">mean( B_pred[unmatched_slots]² )</text>
+<text x="92" y="498" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">Drives non-assigned slot amplitudes toward zero. Prevents noisy predictions.</text>
+<rect x="660" y="438" width="330" height="20" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5" opacity="1"/>
+<rect x="660" y="438" width="13" height="20" rx="4" fill="#f85149" stroke="none" stroke-width="1.5" opacity="0.85"/>
+<text x="998" y="452" font-size="10" fill="#f85149" text-anchor="start" font-weight="600">4%</text>
+<text x="666" y="476" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">L2 penalty on amplitude</text>
+<rect x="18" y="502" width="1004" height="78" rx="7" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<rect x="22" y="510" width="55" height="62" rx="5" fill="#76e3ea" stroke="none" stroke-width="1.5" opacity="0.2"/>
+<text x="49" y="539" font-size="14" fill="#76e3ea" text-anchor="middle" font-weight="700">×0.5</text>
+<text x="90" y="533" font-size="12" fill="#76e3ea" text-anchor="start" font-weight="700">Cardinality Regression</text>
+<text x="90" y="550" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">L_count</text>
+<text x="92" y="566" font-size="9" fill="#8b949e" text-anchor="start" class="mono">SmoothL1( count_head − N_true )</text>
+<text x="92" y="580" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">Trains the global count head to predict number of peaks. Guides top-K decode.</text>
+<rect x="660" y="520" width="330" height="20" rx="4" fill="#21262d" stroke="#30363d" stroke-width="0.5" opacity="1"/>
+<rect x="660" y="520" width="6" height="20" rx="4" fill="#76e3ea" stroke="none" stroke-width="1.5" opacity="0.85"/>
+<text x="998" y="534" font-size="10" fill="#76e3ea" text-anchor="start" font-weight="600">2%</text>
+<text x="663" y="558" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">β = 1.0  ·  global pooling</text>
+<rect x="18" y="594" width="1004" height="80" rx="8" fill="url(#gcyan)" stroke="#76e3ea" stroke-width="1.5" opacity="0.15"/>
+<rect x="18" y="594" width="1004" height="80" rx="8" fill="none" stroke="#76e3ea" stroke-width="1.5" opacity="1"/>
+<text x="520" y="614" font-size="12" fill="#76e3ea" text-anchor="middle" font-weight="700">L_spectrum  —  Physics Regularizer  (weighted by λ_spec = 0.3)</text>
+<text x="32" y="632" font-size="9" fill="#8b949e" text-anchor="start" class="mono">L_signal: MSE[ Σ Bₖ sin(ωₖ t) · (pred vs true) ]  —  Time-domain dipole consistency</text>
+<text x="32" y="648" font-size="9" fill="#8b949e" text-anchor="start" class="mono">L_spec:   MSE[ log(1 + 5000·S_pred(ω) ) − log(1 + 5000·S_true(ω)) ]  —  Log-Lorentzian spectrum</text>
+<text x="32" y="664" font-size="9" fill="#8b949e" text-anchor="start" class="mono">L_area:   SmoothL1( Σ S_pred(ω) − Σ S_true(ω) )  —  Spectral area conservation</text>
+<text x="520" y="646" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">Total bipartite weight = 24.7  ·  Effective: L_total = L_bipartite/batch + 0.3·L_spectrum/batch</text>
+</svg>

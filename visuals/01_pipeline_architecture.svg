@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="660" viewBox="0 0 1450 660">
+<defs>
+<style>text{font-family:'Inter','Segoe UI',Arial,sans-serif}.mono{font-family:'JetBrains Mono','Fira Code','Courier New',monospace}</style>
+<linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+<linearGradient id="gblue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f6feb"/><stop offset="100%" stop-color="#0d419d"/></linearGradient>
+<linearGradient id="ggreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2ea043"/><stop offset="100%" stop-color="#196c2e"/></linearGradient>
+<linearGradient id="gpurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8957e5"/><stop offset="100%" stop-color="#553098"/></linearGradient>
+<linearGradient id="gorange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9e6a03"/><stop offset="100%" stop-color="#5a3e00"/></linearGradient>
+<linearGradient id="gred" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b91c1c"/><stop offset="100%" stop-color="#7f1d1d"/></linearGradient>
+<linearGradient id="gcyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e7490"/><stop offset="100%" stop-color="#164e63"/></linearGradient>
+<linearGradient id="gteal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#134e4a"/></linearGradient>
+<linearGradient id="gdark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161b22"/><stop offset="100%" stop-color="#0d1117"/></linearGradient>
+<marker id="ablue"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#58a6ff"/></marker>
+<marker id="agreen"  markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#3fb950"/></marker>
+<marker id="aorange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#e3b341"/></marker>
+<marker id="ared"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#f85149"/></marker>
+<marker id="apurple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a371f7"/></marker>
+<marker id="acyan"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#76e3ea"/></marker>
+<marker id="adim"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#8b949e"/></marker>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.6"/></filter>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1450" height="660" fill="url(#gbg)"/>
+<rect x="0" y="0" width="1450" height="88" rx="0" fill="#161b22" stroke="#30363d" stroke-width="0" opacity="1"/>
+<line x1="0" y1="88" x2="1450" y2="88" stroke="#30363d" stroke-width="1"/>
+<text x="725" y="38" font-size="21" fill="#e6edf3" text-anchor="middle" font-weight="700">End-to-End Pipeline: RT-TDDFT  →  GNN Training  →  Spectrum Prediction</text>
+<text x="725" y="68" font-size="12" fill="#8b949e" text-anchor="middle" font-weight="normal">Electron-GNN  ·  Quantum spectroscopy accelerated by equivariant graph neural networks</text>
+<rect x="7" y="100" width="607" height="281" rx="14" fill="url(#gorange)" stroke="#e3b341" stroke-width="1.5" opacity="0.13"/>
+<text x="310" y="119" font-size="10" fill="#e3b341" text-anchor="middle" font-weight="700">⚛  Phase A — Quantum Physics</text>
+<rect x="646" y="100" width="394" height="281" rx="14" fill="url(#gblue)" stroke="#58a6ff" stroke-width="1.5" opacity="0.13"/>
+<text x="843" y="119" font-size="10" fill="#58a6ff" text-anchor="middle" font-weight="700">🤖  Phase B — Machine Learning</text>
+<rect x="1072" y="100" width="394" height="281" rx="14" fill="url(#ggreen)" stroke="#3fb950" stroke-width="1.5" opacity="0.13"/>
+<text x="1269" y="119" font-size="10" fill="#3fb950" text-anchor="middle" font-weight="700">📈  Phase C — Inference &amp; Output</text>
+<rect x="15" y="128" width="165" height="215" rx="12" fill="url(#gorange)" stroke="#30363d" stroke-width="1.5" opacity="1" filter="url(#sh)"/>
+<circle cx="97" cy="162" r="20" fill="rgba(0,0,0,0.3)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="97" y="168" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="normal">⚡</text>
+<text x="97" y="196" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">RT-TDDFT Run</text>
+<text x="97" y="214" font-size="9" fill="#484f58" text-anchor="middle" class="mono">ReSpect v3+</text>
+<text x="97" y="235" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">Laser pulse excites electrons</text>
+<line x1="29" y1="248" x2="166" y2="248" stroke="#30363d" stroke-width="0.5"/>
+<text x="97" y="261" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Output:</text>
+<text x="97" y="279" font-size="9" fill="#76e3ea" text-anchor="middle" class="mono">.out  .xyz files</text>
+<line x1="182" y1="247" x2="226" y2="247" stroke="#e3b341" stroke-width="2.5" marker-end="url(#aorange)"/>
+<rect x="228" y="128" width="165" height="215" rx="12" fill="url(#gorange)" stroke="#30363d" stroke-width="1.5" opacity="1" filter="url(#sh)"/>
+<circle cx="310" cy="162" r="20" fill="rgba(0,0,0,0.3)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="310" y="168" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="normal">📡</text>
+<text x="310" y="196" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Signal Parser</text>
+<text x="310" y="214" font-size="9" fill="#484f58" text-anchor="middle" class="mono">scripts/parser.py</text>
+<text x="310" y="235" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">Extract μ(t) dipole trajectory</text>
+<line x1="242" y1="248" x2="379" y2="248" stroke="#30363d" stroke-width="0.5"/>
+<text x="310" y="261" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Output:</text>
+<text x="310" y="279" font-size="9" fill="#76e3ea" text-anchor="middle" class="mono">times[], dipole[], pos[]</text>
+<line x1="395" y1="247" x2="439" y2="247" stroke="#e3b341" stroke-width="2.5" marker-end="url(#aorange)"/>
+<rect x="441" y="128" width="165" height="215" rx="12" fill="url(#gorange)" stroke="#30363d" stroke-width="1.5" opacity="1" filter="url(#sh)"/>
+<circle cx="523" cy="162" r="20" fill="rgba(0,0,0,0.3)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="523" y="168" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="normal">🔬</text>
+<text x="523" y="196" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Peak Extraction</text>
+<text x="523" y="214" font-size="9" fill="#484f58" text-anchor="middle" class="mono">Padé + K-Means + LASSO</text>
+<text x="523" y="235" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">Find quantum transitions {ω,B}</text>
+<line x1="455" y1="248" x2="592" y2="248" stroke="#30363d" stroke-width="0.5"/>
+<text x="523" y="261" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Output:</text>
+<text x="523" y="279" font-size="9" fill="#76e3ea" text-anchor="middle" class="mono">data/processed/*.pt</text>
+<line x1="608" y1="247" x2="652" y2="247" stroke="#e3b341" stroke-width="2.5" marker-end="url(#aorange)"/>
+<rect x="654" y="128" width="165" height="215" rx="12" fill="url(#gblue)" stroke="#30363d" stroke-width="1.5" opacity="1" filter="url(#sh)"/>
+<circle cx="736" cy="162" r="20" fill="rgba(0,0,0,0.3)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="736" y="168" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="normal">🕸</text>
+<text x="736" y="196" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Graph Builder</text>
+<text x="736" y="214" font-size="9" fill="#484f58" text-anchor="middle" class="mono">molecule_graph.py</text>
+<text x="736" y="235" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">Atoms + bonds → PyG Data</text>
+<line x1="668" y1="248" x2="805" y2="248" stroke="#30363d" stroke-width="0.5"/>
+<text x="736" y="261" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Output:</text>
+<text x="736" y="279" font-size="9" fill="#76e3ea" text-anchor="middle" class="mono">Data(x, edge_index, edge_attr)</text>
+<line x1="821" y1="247" x2="865" y2="247" stroke="#58a6ff" stroke-width="2.5" marker-end="url(#ablue)"/>
+<rect x="867" y="128" width="165" height="215" rx="12" fill="url(#gpurple)" stroke="#30363d" stroke-width="1.5" opacity="1" filter="url(#sh)"/>
+<circle cx="949" cy="162" r="20" fill="rgba(0,0,0,0.3)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="949" y="168" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="normal">🧠</text>
+<text x="949" y="196" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Two-Tower GNN</text>
+<text x="949" y="214" font-size="9" fill="#484f58" text-anchor="middle" class="mono">train_v3_two_tower.py</text>
+<text x="949" y="235" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">V1 freq tower + V2 amp tower</text>
+<line x1="881" y1="248" x2="1018" y2="248" stroke="#30363d" stroke-width="0.5"/>
+<text x="949" y="261" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Output:</text>
+<text x="949" y="279" font-size="9" fill="#76e3ea" text-anchor="middle" class="mono">checkpoints/*.pth</text>
+<line x1="1034" y1="247" x2="1078" y2="247" stroke="#a371f7" stroke-width="2.5" marker-end="url(#apurple)"/>
+<rect x="1080" y="128" width="165" height="215" rx="12" fill="url(#gcyan)" stroke="#30363d" stroke-width="1.5" opacity="1" filter="url(#sh)"/>
+<circle cx="1162" cy="162" r="20" fill="rgba(0,0,0,0.3)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1162" y="168" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="normal">⚙</text>
+<text x="1162" y="196" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Hybrid Inference</text>
+<text x="1162" y="214" font-size="9" fill="#484f58" text-anchor="middle" class="mono">utils/hybrid_inference</text>
+<text x="1162" y="235" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">V1 freq + V2 amp → Hungarian</text>
+<line x1="1094" y1="248" x2="1231" y2="248" stroke="#30363d" stroke-width="0.5"/>
+<text x="1162" y="261" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Output:</text>
+<text x="1162" y="279" font-size="9" fill="#76e3ea" text-anchor="middle" class="mono">{ω_k, B_k} peak set</text>
+<line x1="1247" y1="247" x2="1291" y2="247" stroke="#76e3ea" stroke-width="2.5" marker-end="url(#acyan)"/>
+<rect x="1293" y="128" width="165" height="215" rx="12" fill="url(#ggreen)" stroke="#30363d" stroke-width="1.5" opacity="1" filter="url(#sh)"/>
+<circle cx="1375" cy="162" r="20" fill="rgba(0,0,0,0.3)" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1375" y="168" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="normal">📊</text>
+<text x="1375" y="196" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Dashboard</text>
+<text x="1375" y="214" font-size="9" fill="#484f58" text-anchor="middle" class="mono">dashboard/app.py</text>
+<text x="1375" y="235" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">Streamlit comparison + reports</text>
+<line x1="1307" y1="248" x2="1444" y2="248" stroke="#30363d" stroke-width="0.5"/>
+<text x="1375" y="261" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">Output:</text>
+<text x="1375" y="279" font-size="9" fill="#76e3ea" text-anchor="middle" class="mono">Lorentzian spectrum</text>
+<text x="204" y="265" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">μ(t), r_i, Z_i</text>
+<text x="417" y="265" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">{ω_k, B_k}</text>
+<text x="630" y="265" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">.pt tensors</text>
+<text x="843" y="265" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">PyG batch</text>
+<text x="1056" y="265" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">.pth ckpts</text>
+<text x="1269" y="265" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">{ω, B} peaks</text>
+<rect x="15" y="398" width="1420" height="55" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<text x="40" y="418" font-size="10" fill="#8b949e" text-anchor="start" font-weight="normal">Data types:</text>
+<circle cx="140" cy="414" r="5" fill="#e3b341" stroke="none" stroke-width="0" opacity="1"/>
+<text x="152" y="419" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">ReSpect (.out/.xyz)  — Raw quantum chemistry output</text>
+<circle cx="470" cy="414" r="5" fill="#58a6ff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="482" y="419" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">PyG Data (.pt)  — Serialised molecular graphs + spectral targets</text>
+<circle cx="800" cy="414" r="5" fill="#a371f7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="812" y="419" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">PyTorch (.pth)  — Trained model checkpoints</text>
+<circle cx="1130" cy="414" r="5" fill="#3fb950" stroke="none" stroke-width="0" opacity="1"/>
+<text x="1142" y="419" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">Plotly / Streamlit  — Interactive dashboard and report plots</text>
+<text x="725" y="648" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">github.com/Galabavamsi/Electron-GNN  ·  RT-TDDFT + Equivariant GNN</text>
+</svg>

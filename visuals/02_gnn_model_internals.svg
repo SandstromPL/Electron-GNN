@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="760" viewBox="0 0 1120 760">
+<defs>
+<style>text{font-family:'Inter','Segoe UI',Arial,sans-serif}.mono{font-family:'JetBrains Mono','Fira Code','Courier New',monospace}</style>
+<linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+<linearGradient id="gblue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f6feb"/><stop offset="100%" stop-color="#0d419d"/></linearGradient>
+<linearGradient id="ggreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2ea043"/><stop offset="100%" stop-color="#196c2e"/></linearGradient>
+<linearGradient id="gpurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8957e5"/><stop offset="100%" stop-color="#553098"/></linearGradient>
+<linearGradient id="gorange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9e6a03"/><stop offset="100%" stop-color="#5a3e00"/></linearGradient>
+<linearGradient id="gred" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b91c1c"/><stop offset="100%" stop-color="#7f1d1d"/></linearGradient>
+<linearGradient id="gcyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e7490"/><stop offset="100%" stop-color="#164e63"/></linearGradient>
+<linearGradient id="gteal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#134e4a"/></linearGradient>
+<linearGradient id="gdark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161b22"/><stop offset="100%" stop-color="#0d1117"/></linearGradient>
+<marker id="ablue"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#58a6ff"/></marker>
+<marker id="agreen"  markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#3fb950"/></marker>
+<marker id="aorange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#e3b341"/></marker>
+<marker id="ared"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#f85149"/></marker>
+<marker id="apurple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a371f7"/></marker>
+<marker id="acyan"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#76e3ea"/></marker>
+<marker id="adim"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#8b949e"/></marker>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.6"/></filter>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1120" height="760" fill="url(#gbg)"/>
+<rect x="0" y="0" width="1120" height="78" rx="0" fill="#161b22" stroke="#30363d" stroke-width="0" opacity="1"/>
+<line x1="0" y1="78" x2="1120" y2="78" stroke="#30363d" stroke-width="1"/>
+<text x="560" y="35" font-size="19" fill="#e6edf3" text-anchor="middle" font-weight="700">SpectralEquivariantGNN  —  V2 / V3 Amplitude Tower Architecture</text>
+<text x="560" y="60" font-size="11" fill="#8b949e" text-anchor="middle" font-weight="normal">GATv2 encoder + DETR-style set decoder  ·  Input: molecular graph  →  Output: {prob, freq, amp, count} per slot</text>
+<rect x="35" y="98" width="455" height="60" rx="8" fill="url(#gdark)" stroke="#30363d" stroke-width="1.5" opacity="1"/>
+<text x="262" y="122" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Input: Molecular Graph</text>
+<text x="262" y="143" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">x: (N,5)  edge_index: (2,E)  edge_attr: (E,4)  batch: (N,)</text>
+<rect x="35" y="185" width="215" height="82" rx="8" fill="url(#gblue)" stroke="#58a6ff" stroke-width="1.5" opacity="1"/>
+<text x="142" y="208" font-size="12" fill="#e6edf3" text-anchor="middle" font-weight="700">Node Embedding</text>
+<text x="142" y="226" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">Linear(5→128)</text>
+<text x="142" y="242" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">SiLU  ·  LayerNorm</text>
+<text x="142" y="258" font-size="10" fill="#76e3ea" text-anchor="middle" class="mono">→ h: (N, 128)</text>
+<rect x="265" y="185" width="225" height="82" rx="8" fill="url(#gpurple)" stroke="#a371f7" stroke-width="1.5" opacity="1"/>
+<text x="377" y="208" font-size="12" fill="#e6edf3" text-anchor="middle" font-weight="700">Edge Embedding</text>
+<text x="377" y="226" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">Linear(4→128) + SiLU</text>
+<text x="377" y="242" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">Linear + LayerNorm</text>
+<text x="377" y="258" font-size="10" fill="#a371f7" text-anchor="middle" class="mono">→ e: (E, 128)</text>
+<rect x="35" y="295" width="455" height="165" rx="10" fill="url(#ggreen)" stroke="#3fb950" stroke-width="1.5" opacity="1"/>
+<text x="262" y="317" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">GATv2Conv  ×  4  layers  (with Residual + GELU)</text>
+<rect x="45" y="330" width="98" height="50" rx="6" fill="#21262d" stroke="#196c2e" stroke-width="1" opacity="1"/>
+<text x="94" y="351" font-size="11" fill="#e6edf3" text-anchor="middle" font-weight="600">Layer 1</text>
+<text x="94" y="370" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">Attn 4 heads</text>
+<rect x="154" y="330" width="98" height="50" rx="6" fill="#21262d" stroke="#196c2e" stroke-width="1" opacity="1"/>
+<text x="203" y="351" font-size="11" fill="#e6edf3" text-anchor="middle" font-weight="600">Layer 2</text>
+<text x="203" y="370" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">Attn 4 heads</text>
+<rect x="263" y="330" width="98" height="50" rx="6" fill="#21262d" stroke="#196c2e" stroke-width="1" opacity="1"/>
+<text x="312" y="351" font-size="11" fill="#e6edf3" text-anchor="middle" font-weight="600">Layer 3</text>
+<text x="312" y="370" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">Attn 4 heads</text>
+<rect x="372" y="330" width="98" height="50" rx="6" fill="#21262d" stroke="#196c2e" stroke-width="1" opacity="1"/>
+<text x="421" y="351" font-size="11" fill="#e6edf3" text-anchor="middle" font-weight="600">Layer 4</text>
+<text x="421" y="370" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">Attn 4 heads</text>
+<text x="262" y="405" font-size="10" fill="#8b949e" text-anchor="middle" font-weight="normal">in: (N,128)  +  edge (E,128)  →  out: (N,128)  +  residual</text>
+<text x="262" y="425" font-size="10" fill="#3fb950" text-anchor="middle" class="mono">h = GELU(GATv2(h, edge_index, e)) + h_res</text>
+<text x="262" y="443" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">LayerNorm applied after each layer</text>
+<rect x="35" y="487" width="455" height="75" rx="8" fill="url(#gorange)" stroke="#e3b341" stroke-width="1.5" opacity="1"/>
+<text x="262" y="509" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Global Pooling  →  Context Vector</text>
+<text x="262" y="530" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">mean_pool(h, batch)  ||  max_pool(h, batch)  →  cat: (B, 256)</text>
+<text x="262" y="547" font-size="10" fill="#e3b341" text-anchor="middle" class="mono">Linear(256→128) + SiLU + LN  →  context: (B, 128)</text>
+<line x1="262" y1="158" x2="262" y2="183" stroke="#58a6ff" stroke-width="2" marker-end="url(#ablue)"/>
+<line x1="262" y1="267" x2="262" y2="293" stroke="#3fb950" stroke-width="2" marker-end="url(#agreen)"/>
+<line x1="262" y1="460" x2="262" y2="485" stroke="#e3b341" stroke-width="2" marker-end="url(#aorange)"/>
+<rect x="610" y="185" width="475" height="75" rx="8" fill="url(#gcyan)" stroke="#76e3ea" stroke-width="1.5" opacity="1"/>
+<text x="847" y="210" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Learnable Query Tokens</text>
+<text x="847" y="230" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">query_embed: nn.Parameter  →  shape: (K_max=64, 128)</text>
+<text x="847" y="249" font-size="10" fill="#76e3ea" text-anchor="middle" class="mono">Expanded to: (B, 64, 128)  per batch</text>
+<rect x="610" y="288" width="475" height="95" rx="8" fill="url(#gblue)" stroke="#58a6ff" stroke-width="1.5" opacity="1"/>
+<text x="847" y="310" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">TransformerDecoder  (2 layers, 4 heads)</text>
+<text x="847" y="331" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">tgt=queries  ·  memory=dense_nodes  (from GATv2)</text>
+<text x="847" y="348" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">memory_key_padding_mask = ~node_mask</text>
+<text x="847" y="364" font-size="10" fill="#58a6ff" text-anchor="middle" class="mono">slot_features: (B, 64, 128)  cross-attends over graph nodes</text>
+<rect x="610" y="410" width="475" height="75" rx="8" fill="url(#gpurple)" stroke="#a371f7" stroke-width="1.5" opacity="1"/>
+<text x="847" y="432" font-size="13" fill="#e6edf3" text-anchor="middle" font-weight="700">Slot Refinement</text>
+<text x="847" y="453" font-size="10" fill="#8b949e" text-anchor="middle" class="mono">cat(slot_features, context expanded)  →  (B,64,256)</text>
+<text x="847" y="470" font-size="10" fill="#a371f7" text-anchor="middle" class="mono">Linear(256→128) + GELU  →  (B, K_max, 128)</text>
+<rect x="610" y="515" width="475" height="165" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1.5" opacity="1"/>
+<text x="847" y="535" font-size="12" fill="#e6edf3" text-anchor="middle" font-weight="700">Output Heads  (applied independently to each slot)</text>
+<rect x="620" y="550" width="120" height="23" rx="4" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.2"/>
+<text x="680" y="565" font-size="10" fill="#58a6ff" text-anchor="middle" font-weight="600">head_prob</text>
+<text x="810" y="565" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">Linear(128→1)</text>
+<text x="940" y="565" font-size="9" fill="#58a6ff" text-anchor="middle" font-weight="normal">sigmoid → p ∈ (0,1)</text>
+<text x="1075" y="565" font-size="9" fill="#484f58" text-anchor="end" font-weight="normal">Slot existence probability</text>
+<rect x="620" y="580" width="120" height="23" rx="4" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.2"/>
+<text x="680" y="595" font-size="10" fill="#3fb950" text-anchor="middle" font-weight="600">head_freq</text>
+<text x="810" y="595" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">MLP(128→1)</text>
+<text x="940" y="595" font-size="9" fill="#3fb950" text-anchor="middle" font-weight="normal">softplus + 1e-5 → ω</text>
+<text x="1075" y="595" font-size="9" fill="#484f58" text-anchor="end" font-weight="normal">Transition frequency [a.u.]</text>
+<rect x="620" y="610" width="120" height="23" rx="4" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.2"/>
+<text x="680" y="625" font-size="10" fill="#e3b341" text-anchor="middle" font-weight="600">head_amp</text>
+<text x="810" y="625" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">MLP(128→1)</text>
+<text x="940" y="625" font-size="9" fill="#e3b341" text-anchor="middle" font-weight="normal">softplus × amp_scale</text>
+<text x="1075" y="625" font-size="9" fill="#484f58" text-anchor="end" font-weight="normal">Dipole amplitude B_k [a.u.]</text>
+<rect x="620" y="640" width="120" height="23" rx="4" fill="#f85149" stroke="none" stroke-width="0" opacity="0.2"/>
+<text x="680" y="655" font-size="10" fill="#f85149" text-anchor="middle" font-weight="600">head_count</text>
+<text x="810" y="655" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">MLP(128→1)*</text>
+<text x="940" y="655" font-size="9" fill="#f85149" text-anchor="middle" font-weight="normal">softplus → N̂</text>
+<text x="1075" y="655" font-size="9" fill="#484f58" text-anchor="end" font-weight="normal">Predicted peak count  *global</text>
+<line x1="847" y1="260" x2="847" y2="286" stroke="#76e3ea" stroke-width="2" marker-end="url(#acyan)"/>
+<line x1="847" y1="383" x2="847" y2="408" stroke="#a371f7" stroke-width="2" marker-end="url(#apurple)"/>
+<line x1="847" y1="485" x2="847" y2="513" stroke="#e3b341" stroke-width="2" marker-end="url(#aorange)"/>
+<line x1="490" y1="377" x2="610" y2="335" stroke="#3fb950" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#agreen)"/>
+<text x="550" y="348" font-size="9" fill="#3fb950" text-anchor="middle" font-weight="normal">node memory</text>
+<path d="M490,524 H550 V447 H610" fill="none" stroke="#e3b341" stroke-width="2" marker-end="url(#aorange)"/>
+<text x="550" y="516" font-size="9" fill="#e3b341" text-anchor="middle" font-weight="normal">context (B,128)</text>
+<text x="560" y="746" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">K_max = 64 slots  ·  hidden_dim = 128  ·  4 GATv2 layers  ·  2 decoder layers  ·  4 attention heads</text>
+</svg>

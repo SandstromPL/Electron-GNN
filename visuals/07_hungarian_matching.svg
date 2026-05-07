@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="610" viewBox="0 0 1000 610">
+<defs>
+<style>text{font-family:'Inter','Segoe UI',Arial,sans-serif}.mono{font-family:'JetBrains Mono','Fira Code','Courier New',monospace}</style>
+<linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+<linearGradient id="gblue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f6feb"/><stop offset="100%" stop-color="#0d419d"/></linearGradient>
+<linearGradient id="ggreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2ea043"/><stop offset="100%" stop-color="#196c2e"/></linearGradient>
+<linearGradient id="gpurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8957e5"/><stop offset="100%" stop-color="#553098"/></linearGradient>
+<linearGradient id="gorange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9e6a03"/><stop offset="100%" stop-color="#5a3e00"/></linearGradient>
+<linearGradient id="gred" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b91c1c"/><stop offset="100%" stop-color="#7f1d1d"/></linearGradient>
+<linearGradient id="gcyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e7490"/><stop offset="100%" stop-color="#164e63"/></linearGradient>
+<linearGradient id="gteal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#134e4a"/></linearGradient>
+<linearGradient id="gdark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161b22"/><stop offset="100%" stop-color="#0d1117"/></linearGradient>
+<marker id="ablue"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#58a6ff"/></marker>
+<marker id="agreen"  markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#3fb950"/></marker>
+<marker id="aorange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#e3b341"/></marker>
+<marker id="ared"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#f85149"/></marker>
+<marker id="apurple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a371f7"/></marker>
+<marker id="acyan"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#76e3ea"/></marker>
+<marker id="adim"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#8b949e"/></marker>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.6"/></filter>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="610" fill="url(#gbg)"/>
+<rect x="0" y="0" width="1000" height="75" rx="0" fill="#161b22" stroke="#30363d" stroke-width="0" opacity="1"/>
+<line x1="0" y1="75" x2="1000" y2="75" stroke="#30363d" stroke-width="1"/>
+<text x="500" y="32" font-size="19" fill="#e6edf3" text-anchor="middle" font-weight="700">Bipartite Matching Loss  —  Hungarian Algorithm</text>
+<text x="500" y="57" font-size="11" fill="#8b949e" text-anchor="middle" font-weight="normal">cost(i,j) = 10|ω_pred[i] − ω_true[j]| + |B_pred[i] − B_true[j]|    →    linear_sum_assignment (scipy)</text>
+<text x="140" y="90" font-size="11" fill="#58a6ff" text-anchor="middle" font-weight="700">Predicted Slots  (K_max = 64)</text>
+<rect x="30" y="100" width="220" height="38" rx="5" fill="url(#gblue)" stroke="#58a6ff" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="104" width="46" height="30" rx="3" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="124" font-size="9" fill="#58a6ff" text-anchor="start" font-weight="normal">p=0.92</text>
+<text x="170" y="124" font-size="9" fill="#e6edf3" text-anchor="middle" class="mono">ω=0.82</text>
+<text x="230" y="124" font-size="8" fill="#8b949e" text-anchor="middle" class="mono">B=0.0018</text>
+<rect x="30" y="146" width="220" height="38" rx="5" fill="url(#gblue)" stroke="#3fb950" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="150" width="43" height="30" rx="3" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="170" font-size="9" fill="#3fb950" text-anchor="start" font-weight="normal">p=0.87</text>
+<text x="170" y="170" font-size="9" fill="#e6edf3" text-anchor="middle" class="mono">ω=1.63</text>
+<text x="230" y="170" font-size="8" fill="#8b949e" text-anchor="middle" class="mono">B=0.0010</text>
+<rect x="30" y="192" width="220" height="38" rx="5" fill="url(#gblue)" stroke="#e3b341" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="196" width="39" height="30" rx="3" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="216" font-size="9" fill="#e3b341" text-anchor="start" font-weight="normal">p=0.79</text>
+<text x="170" y="216" font-size="9" fill="#e6edf3" text-anchor="middle" class="mono">ω=2.86</text>
+<text x="230" y="216" font-size="8" fill="#8b949e" text-anchor="middle" class="mono">B=0.0006</text>
+<rect x="30" y="238" width="220" height="38" rx="5" fill="url(#gblue)" stroke="#a371f7" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="242" width="35" height="30" rx="3" fill="#a371f7" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="262" font-size="9" fill="#a371f7" text-anchor="start" font-weight="normal">p=0.71</text>
+<text x="170" y="262" font-size="9" fill="#e6edf3" text-anchor="middle" class="mono">ω=0.40</text>
+<text x="230" y="262" font-size="8" fill="#8b949e" text-anchor="middle" class="mono">B=0.0004</text>
+<rect x="30" y="284" width="220" height="38" rx="5" fill="url(#gblue)" stroke="#76e3ea" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="288" width="31" height="30" rx="3" fill="#76e3ea" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="308" font-size="9" fill="#76e3ea" text-anchor="start" font-weight="normal">p=0.63</text>
+<text x="170" y="308" font-size="9" fill="#e6edf3" text-anchor="middle" class="mono">ω=1.20</text>
+<text x="230" y="308" font-size="8" fill="#8b949e" text-anchor="middle" class="mono">B=0.0003</text>
+<rect x="30" y="330" width="220" height="38" rx="5" fill="url(#gdark)" stroke="#30363d" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="334" width="20" height="30" rx="3" fill="#484f58" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="354" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">p=0.41</text>
+<text x="170" y="354" font-size="9" fill="#484f58" text-anchor="middle" class="mono">ω=2.10</text>
+<text x="230" y="354" font-size="8" fill="#484f58" text-anchor="middle" class="mono">B=0.0001</text>
+<rect x="30" y="376" width="220" height="38" rx="5" fill="url(#gdark)" stroke="#30363d" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="380" width="14" height="30" rx="3" fill="#484f58" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="400" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">p=0.28</text>
+<text x="170" y="400" font-size="9" fill="#484f58" text-anchor="middle" class="mono">ω=3.50</text>
+<text x="230" y="400" font-size="8" fill="#484f58" text-anchor="middle" class="mono">B=0.0001</text>
+<rect x="30" y="422" width="220" height="38" rx="5" fill="url(#gdark)" stroke="#30363d" stroke-width="1.2" opacity="1"/>
+<rect x="34" y="426" width="6" height="30" rx="3" fill="#484f58" stroke="none" stroke-width="0" opacity="0.4"/>
+<text x="90" y="446" font-size="9" fill="#484f58" text-anchor="start" font-weight="normal">p=0.12</text>
+<text x="170" y="446" font-size="9" fill="#484f58" text-anchor="middle" class="mono">ω=0.95</text>
+<text x="230" y="446" font-size="8" fill="#484f58" text-anchor="middle" class="mono">B=0.0000</text>
+<text x="140" y="373" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">⋯  unmatched slots  (K_max − N_true remaining)</text>
+<text x="860" y="90" font-size="11" fill="#3fb950" text-anchor="middle" font-weight="700">True Peaks  (N_true = 5)</text>
+<rect x="760" y="111" width="200" height="38" rx="5" fill="url(#ggreen)" stroke="#3fb950" stroke-width="1.2" opacity="1"/>
+<text x="820" y="135" font-size="10" fill="#e6edf3" text-anchor="middle" class="mono">ω=0.80</text>
+<text x="912" y="135" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">B=0.0019</text>
+<rect x="760" y="157" width="200" height="38" rx="5" fill="url(#ggreen)" stroke="#3fb950" stroke-width="1.2" opacity="1"/>
+<text x="820" y="181" font-size="10" fill="#e6edf3" text-anchor="middle" class="mono">ω=1.60</text>
+<text x="912" y="181" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">B=0.0011</text>
+<rect x="760" y="203" width="200" height="38" rx="5" fill="url(#ggreen)" stroke="#3fb950" stroke-width="1.2" opacity="1"/>
+<text x="820" y="227" font-size="10" fill="#e6edf3" text-anchor="middle" class="mono">ω=2.90</text>
+<text x="912" y="227" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">B=0.0006</text>
+<rect x="760" y="249" width="200" height="38" rx="5" fill="url(#ggreen)" stroke="#3fb950" stroke-width="1.2" opacity="1"/>
+<text x="820" y="273" font-size="10" fill="#e6edf3" text-anchor="middle" class="mono">ω=0.42</text>
+<text x="912" y="273" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">B=0.0004</text>
+<rect x="760" y="295" width="200" height="38" rx="5" fill="url(#ggreen)" stroke="#3fb950" stroke-width="1.2" opacity="1"/>
+<text x="820" y="319" font-size="10" fill="#e6edf3" text-anchor="middle" class="mono">ω=1.18</text>
+<text x="912" y="319" font-size="9" fill="#8b949e" text-anchor="middle" class="mono">B=0.0003</text>
+<path d="M 250 119 C 505 119, 505 130, 760 130" fill="none" stroke="#58a6ff" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M 250 165 C 505 165, 505 176, 760 176" fill="none" stroke="#3fb950" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M 250 211 C 505 211, 505 222, 760 222" fill="none" stroke="#e3b341" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M 250 257 C 505 257, 505 268, 760 268" fill="none" stroke="#a371f7" stroke-width="1.8" stroke-opacity="0.7"/>
+<path d="M 250 303 C 505 303, 505 314, 760 314" fill="none" stroke="#76e3ea" stroke-width="1.8" stroke-opacity="0.7"/>
+<line x1="250" y1="349" x2="330" y2="349" stroke="#484f58" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="345" y="353" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">×  suppressed</text>
+<line x1="250" y1="395" x2="330" y2="395" stroke="#484f58" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="345" y="399" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">×  suppressed</text>
+<line x1="250" y1="441" x2="330" y2="441" stroke="#484f58" stroke-width="1" stroke-dasharray="4,4"/>
+<text x="345" y="445" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">×  suppressed</text>
+<rect x="285" y="100" width="440" height="235" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" opacity="1"/>
+<text x="505" y="118" font-size="11" fill="#8b949e" text-anchor="middle" font-weight="600">Cost Matrix  C[K_max × N_true]</text>
+<text x="426" y="140" font-size="8" fill="#3fb950" text-anchor="middle" font-weight="normal">T1</text>
+<text x="458" y="140" font-size="8" fill="#3fb950" text-anchor="middle" font-weight="normal">T2</text>
+<text x="490" y="140" font-size="8" fill="#3fb950" text-anchor="middle" font-weight="normal">T3</text>
+<text x="522" y="140" font-size="8" fill="#3fb950" text-anchor="middle" font-weight="normal">T4</text>
+<text x="554" y="140" font-size="8" fill="#3fb950" text-anchor="middle" font-weight="normal">T5</text>
+<text x="402" y="150" font-size="8" fill="#58a6ff" text-anchor="end" font-weight="normal">P1</text>
+<rect x="412" y="144" width="29" height="29" rx="3" fill="url(#ggreen)" stroke="#3fb950" stroke-width="0.8" opacity="0.7"/>
+<text x="426" y="164" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.00</text>
+<rect x="444" y="144" width="29" height="29" rx="3" fill="rgb(111,89,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="458" y="164" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.10</text>
+<rect x="476" y="144" width="29" height="29" rx="3" fill="rgb(134,77,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="490" y="164" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.13</text>
+<rect x="508" y="144" width="29" height="29" rx="3" fill="rgb(225,32,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="522" y="164" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.24</text>
+<rect x="540" y="144" width="29" height="29" rx="3" fill="rgb(95,97,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="554" y="164" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.08</text>
+<text x="402" y="182" font-size="8" fill="#58a6ff" text-anchor="end" font-weight="normal">P2</text>
+<rect x="412" y="176" width="29" height="29" rx="3" fill="rgb(207,41,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="426" y="196" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.22</text>
+<rect x="444" y="176" width="29" height="29" rx="3" fill="url(#ggreen)" stroke="#3fb950" stroke-width="0.8" opacity="0.7"/>
+<text x="458" y="196" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.01</text>
+<rect x="476" y="176" width="29" height="29" rx="3" fill="rgb(124,82,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="490" y="196" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.12</text>
+<rect x="508" y="176" width="29" height="29" rx="3" fill="rgb(178,55,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="522" y="196" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.19</text>
+<rect x="540" y="176" width="29" height="29" rx="3" fill="rgb(168,60,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="554" y="196" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.17</text>
+<text x="402" y="214" font-size="8" fill="#58a6ff" text-anchor="end" font-weight="normal">P3</text>
+<rect x="412" y="208" width="29" height="29" rx="3" fill="rgb(222,33,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="426" y="228" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.24</text>
+<rect x="444" y="208" width="29" height="29" rx="3" fill="rgb(135,77,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="458" y="228" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.13</text>
+<rect x="476" y="208" width="29" height="29" rx="3" fill="url(#ggreen)" stroke="#3fb950" stroke-width="0.8" opacity="0.7"/>
+<text x="490" y="228" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.04</text>
+<rect x="508" y="208" width="29" height="29" rx="3" fill="rgb(218,35,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="522" y="228" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.24</text>
+<rect x="540" y="208" width="29" height="29" rx="3" fill="rgb(184,52,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="554" y="228" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.19</text>
+<text x="402" y="246" font-size="8" fill="#58a6ff" text-anchor="end" font-weight="normal">P4</text>
+<rect x="412" y="240" width="29" height="29" rx="3" fill="rgb(73,108,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="426" y="260" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.05</text>
+<rect x="444" y="240" width="29" height="29" rx="3" fill="rgb(197,46,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="458" y="260" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.21</text>
+<rect x="476" y="240" width="29" height="29" rx="3" fill="rgb(214,37,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="490" y="260" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.23</text>
+<rect x="508" y="240" width="29" height="29" rx="3" fill="url(#ggreen)" stroke="#3fb950" stroke-width="0.8" opacity="0.7"/>
+<text x="522" y="260" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.02</text>
+<rect x="540" y="240" width="29" height="29" rx="3" fill="rgb(101,94,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="554" y="260" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.09</text>
+<text x="402" y="278" font-size="8" fill="#58a6ff" text-anchor="end" font-weight="normal">P5</text>
+<rect x="412" y="272" width="29" height="29" rx="3" fill="rgb(98,95,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="426" y="292" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.09</text>
+<rect x="444" y="272" width="29" height="29" rx="3" fill="rgb(205,42,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="458" y="292" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.22</text>
+<rect x="476" y="272" width="29" height="29" rx="3" fill="rgb(83,103,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="490" y="292" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.07</text>
+<rect x="508" y="272" width="29" height="29" rx="3" fill="rgb(157,66,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="522" y="292" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.16</text>
+<rect x="540" y="272" width="29" height="29" rx="3" fill="url(#ggreen)" stroke="#3fb950" stroke-width="0.8" opacity="0.7"/>
+<text x="554" y="292" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.01</text>
+<text x="402" y="310" font-size="8" fill="#484f58" text-anchor="end" font-weight="normal">P6</text>
+<rect x="412" y="304" width="29" height="29" rx="3" fill="rgb(118,85,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="426" y="324" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.11</text>
+<rect x="444" y="304" width="29" height="29" rx="3" fill="rgb(226,31,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="458" y="324" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.25</text>
+<rect x="476" y="304" width="29" height="29" rx="3" fill="rgb(114,87,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="490" y="324" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.11</text>
+<rect x="508" y="304" width="29" height="29" rx="3" fill="rgb(179,55,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="522" y="324" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.19</text>
+<rect x="540" y="304" width="29" height="29" rx="3" fill="rgb(192,48,30)" stroke="#30363d" stroke-width="0.8" opacity="0.7"/>
+<text x="554" y="324" font-size="7" fill="#e6edf3" text-anchor="middle" font-weight="normal">0.20</text>
+<text x="505" y="323" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">Green diagonal = optimal assignment  ·  scipy.optimize.linear_sum_assignment</text>
+<rect x="30" y="365" width="940" height="145" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5" opacity="1"/>
+<text x="500" y="385" font-size="12" fill="#e6edf3" text-anchor="middle" font-weight="700">Loss Computation After Matching</text>
+<circle cx="50" cy="407" r="4" fill="#58a6ff" stroke="none" stroke-width="0" opacity="1"/>
+<text x="62" y="412" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">L_freq: 8.0 × SmoothL1( ω_pred[matched], ω_true )</text>
+<circle cx="510" cy="407" r="4" fill="#e3b341" stroke="none" stroke-width="0" opacity="1"/>
+<text x="522" y="412" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">L_amp: 8.0 × SmoothL1( log(B_pred[matched]), log(B_true) )</text>
+<circle cx="50" cy="437" r="4" fill="#3fb950" stroke="none" stroke-width="0" opacity="1"/>
+<text x="62" y="442" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">L_prob: 1.2 × BCE( p_pred, target_mask )  where target_mask[matched]=1</text>
+<circle cx="510" cy="437" r="4" fill="#f85149" stroke="none" stroke-width="0" opacity="1"/>
+<text x="522" y="442" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">L_unmatched: 1.0 × mean( B_pred[unmatched]² )  — suppress noisy slots</text>
+<circle cx="50" cy="467" r="4" fill="#a371f7" stroke="none" stroke-width="0" opacity="1"/>
+<text x="62" y="472" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">L_sum: 6.0 × SmoothL1( ΣB_pred, ΣB_true )  — total amplitude conservation</text>
+<circle cx="510" cy="467" r="4" fill="#76e3ea" stroke="none" stroke-width="0" opacity="1"/>
+<text x="522" y="472" font-size="9" fill="#8b949e" text-anchor="start" font-weight="normal">L_count: 0.5 × SmoothL1( count_head, N_true )  — cardinality supervision</text>
+<text x="500" y="595" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">Total bipartite loss = sum of all 6 terms  ·  The physical spectrum loss (λ=0.3) is added separately</text>
+</svg>

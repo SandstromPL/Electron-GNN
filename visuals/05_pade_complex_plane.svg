@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+<defs>
+<style>text{font-family:'Inter','Segoe UI',Arial,sans-serif}.mono{font-family:'JetBrains Mono','Fira Code','Courier New',monospace}</style>
+<linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient>
+<linearGradient id="gblue" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1f6feb"/><stop offset="100%" stop-color="#0d419d"/></linearGradient>
+<linearGradient id="ggreen" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#2ea043"/><stop offset="100%" stop-color="#196c2e"/></linearGradient>
+<linearGradient id="gpurple" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8957e5"/><stop offset="100%" stop-color="#553098"/></linearGradient>
+<linearGradient id="gorange" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#9e6a03"/><stop offset="100%" stop-color="#5a3e00"/></linearGradient>
+<linearGradient id="gred" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#b91c1c"/><stop offset="100%" stop-color="#7f1d1d"/></linearGradient>
+<linearGradient id="gcyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0e7490"/><stop offset="100%" stop-color="#164e63"/></linearGradient>
+<linearGradient id="gteal" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f766e"/><stop offset="100%" stop-color="#134e4a"/></linearGradient>
+<linearGradient id="gdark" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#161b22"/><stop offset="100%" stop-color="#0d1117"/></linearGradient>
+<marker id="ablue"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#58a6ff"/></marker>
+<marker id="agreen"  markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#3fb950"/></marker>
+<marker id="aorange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#e3b341"/></marker>
+<marker id="ared"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#f85149"/></marker>
+<marker id="apurple" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#a371f7"/></marker>
+<marker id="acyan"   markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#76e3ea"/></marker>
+<marker id="adim"    markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0,10 3.5,0 7" fill="#8b949e"/></marker>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.6"/></filter>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="800" height="800" fill="url(#gbg)"/>
+<rect x="0" y="0" width="800" height="72" rx="0" fill="#161b22" stroke="#30363d" stroke-width="0" opacity="1"/>
+<line x1="0" y1="72" x2="800" y2="72" stroke="#30363d" stroke-width="1"/>
+<text x="400" y="32" font-size="19" fill="#e6edf3" text-anchor="middle" font-weight="700">Padé Approximant Poles in the Complex Plane</text>
+<text x="400" y="56" font-size="11" fill="#8b949e" text-anchor="middle" font-weight="normal">Physical resonances live on the upper half unit circle  ·  z = exp(iωΔt)</text>
+<path d="M 665.0 430.0 L 665.0 430.0 L 664.8 419.5 L 664.2 408.9 L 663.1 398.5 L 661.7 388.0 L 659.8 377.7 L 657.5 367.4 L 654.8 357.2 L 651.7 347.1 L 648.2 337.2 L 644.3 327.4 L 640.0 317.7 L 635.4 308.3 L 630.4 299.0 L 625.0 290.0 L 619.2 281.1 L 613.1 272.5 L 606.7 264.2 L 600.0 256.1 L 592.9 248.3 L 585.5 240.8 L 577.8 233.5 L 569.9 226.6 L 561.7 220.0 L 553.2 213.8 L 544.5 207.8 L 535.5 202.3 L 526.4 197.1 L 517.0 192.2 L 507.5 187.8 L 497.7 183.7 L 487.9 180.0 L 477.9 176.7 L 467.7 173.8 L 457.5 171.3 L 447.2 169.2 L 436.8 167.6 L 426.3 166.3 L 415.8 165.5 L 405.3 165.1 L 394.7 165.1 L 384.2 165.5 L 373.7 166.3 L 363.2 167.6 L 352.8 169.2 L 342.5 171.3 L 332.3 173.8 L 322.1 176.7 L 312.1 180.0 L 302.3 183.7 L 292.5 187.8 L 283.0 192.2 L 273.6 197.1 L 264.5 202.3 L 255.5 207.8 L 246.8 213.8 L 238.3 220.0 L 230.1 226.6 L 222.2 233.5 L 214.5 240.8 L 207.1 248.3 L 200.0 256.1 L 193.3 264.2 L 186.9 272.5 L 180.8 281.1 L 175.0 290.0 L 169.6 299.0 L 164.6 308.3 L 160.0 317.7 L 155.7 327.4 L 151.8 337.2 L 148.3 347.1 L 145.2 357.2 L 142.5 367.4 L 140.2 377.7 L 138.3 388.0 L 136.9 398.5 L 135.8 408.9 L 135.2 419.5 L 135.0 430.0 Z" fill="#58a6ff" opacity="0.06" stroke="none"/>
+<text x="400" y="268" font-size="10" fill="#58a6ff" text-anchor="middle" font-weight="normal">Physical domain</text>
+<text x="400" y="284" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">Im(z) &gt; 0  ·  |z| ≈ 1</text>
+<circle cx="400" cy="430" r="265" fill="none" stroke="#30363d" stroke-width="1.5" stroke-dasharray="6,3"/>
+<circle cx="400" cy="430" r="265" fill="none" stroke="#58a6ff" stroke-width="2" stroke-dasharray="none" opacity="0.4"/>
+<line x1="105" y1="430" x2="695" y2="430" stroke="#8b949e" stroke-width="1.5" marker-end="url(#adim)"/>
+<line x1="400" y1="725" x2="400" y2="135" stroke="#8b949e" stroke-width="1.5" marker-end="url(#adim)"/>
+<text x="707" y="435" font-size="11" fill="#8b949e" text-anchor="middle" font-weight="normal">Re(z)</text>
+<text x="410" y="127" font-size="11" fill="#8b949e" text-anchor="start" font-weight="normal">Im(z)</text>
+<text x="408" y="448" font-size="10" fill="#484f58" text-anchor="middle" font-weight="normal">0</text>
+<text x="671" y="448" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">+1</text>
+<text x="121" y="448" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">−1</text>
+<text x="408" y="175" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">+i</text>
+<circle cx="444.1696172195787" cy="721.2267667983315" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="160.41317846877388" cy="333.1823427627035" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="539.3983121023421" cy="601.5586350889747" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="326.63094801085765" cy="643.7150332304349" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="593.6537733564423" cy="299.85119885019867" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="678.8241839688612" cy="473.04444720992944" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="418.87609841159815" cy="699.2457011851354" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="464.88023429098297" cy="711.4047154761588" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="573.4795850225253" cy="249.5963254517065" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="142.57373343272502" cy="347.0467341561076" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="202.79702121184803" cy="222.099066002896" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="627.8878474936052" cy="542.9490883926657" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="226.35761223664755" cy="650.5923176672625" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="506.90916723387954" cy="647.3238318200445" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="163.29836309715782" cy="342.10832458490114" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="435.89513039241626" cy="180.7219952139993" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="189.23069360000557" cy="505.261061691082" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="659.425888686054" cy="320.0180184203788" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="516.6157521758029" cy="649.8105594964895" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="220.33374178554342" cy="625.3800009966211" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="414.30189993641255" cy="711.1982560021918" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="228.81190280887353" cy="207.94311198187066" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="683.0565173024818" cy="482.71037668783293" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="604.8029814757471" cy="592.7699383203549" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="444.42277444398604" cy="676.4456895262821" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="489.39518359000283" cy="183.45282739639205" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="197.634633549055" cy="387.0581192770313" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="607.0495926197559" cy="371.53045931854876" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="524.1486209736172" cy="249.06365573178167" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="305.8119496383199" cy="640.5365918776267" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="390.8271660270296" cy="708.6212679200898" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="628.9513087862056" cy="477.39893593254607" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="284.4442368947116" cy="206.08728131888395" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="187.3044421508348" cy="204.80924697708951" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="151.88291279458554" cy="381.9510763715555" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="507.8023716426553" cy="160.3426002762867" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="559.471497383583" cy="260.3478559411675" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="145.07657074024436" cy="390.7807180425184" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="433.5805471694523" cy="200.16852227946157" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="277.7026564077252" cy="651.8435022260878" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="128.67356055525892" cy="316.91705824554043" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="502.0134800640688" cy="608.3842942009106" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="313.929411493334" cy="696.4071243202527" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="295.6662387789302" cy="177.51784671897212" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="520.8345619122072" cy="642.590403783223" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="472.5909040123326" cy="632.5695343088751" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="196.62651672857984" cy="256.25484911653007" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="341.14760205405787" cy="190.36196550247442" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="287.6430920153888" cy="678.8242255231678" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="569.715459568703" cy="225.49763595518112" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="499.1170770256664" cy="125.5466227791398" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="656.4795399704699" cy="418.12716998795867" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="452.8235540876267" cy="653.5852738941392" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="261.74149250490933" cy="663.2831601844262" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="324.22494781089466" cy="691.8346623910646" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="459.8324279372473" cy="736.0298923411739" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="115.9640237439665" cy="355.00578856647934" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="148.17073634993983" cy="546.0779899593142" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="601.3602191615199" cy="187.22845063146696" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="568.4969634141742" cy="282.33185155688034" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="280.822364126331" cy="641.7227542701339" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="170.7536352594481" cy="387.90322605705023" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="169.26797500057467" cy="530.2533140877497" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="420.47388827887414" cy="646.607711810342" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="209.90166301078298" cy="644.8564679370874" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="157.1011419192688" cy="515.0076432413309" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="200.32976091485097" cy="507.90670389356995" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="323.5150894217856" cy="213.07564237538008" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="670.6462278994949" cy="376.9286910665145" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="129.0526058635212" cy="316.2057986619453" r="3" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="0.7"/>
+<circle cx="635.0536545365103" cy="307.62851848150706" r="26" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.12"/>
+<circle cx="635.0536545365103" cy="307.62851848150706" r="26" fill="none" stroke="#58a6ff" stroke-width="1" opacity="0.4"/>
+<circle cx="631.7928271403192" cy="318.42581332937584" r="3.5" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="649.359321949427" cy="298.50774915126345" r="3.5" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="637.0976159201613" cy="314.4060458969423" r="3.5" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="649.9631689264819" cy="303.2433464280561" r="3.5" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="636.773038274239" cy="295.2251226772454" r="3.5" fill="#58a6ff" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="635.0536545365103" cy="307.62851848150706" r="7" fill="#58a6ff" stroke="#e6edf3" stroke-width="1.5" opacity="1"/>
+<text x="686.7654585345425" y="282.4693766195944" font-size="11" fill="#58a6ff" text-anchor="middle" font-weight="700">ω₁</text>
+<text x="686.7654585345425" y="296.4693766195944" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">ω=0.48</text>
+<circle cx="547.6109748930476" cy="209.91819681962784" r="26" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.12"/>
+<circle cx="547.6109748930476" cy="209.91819681962784" r="26" fill="none" stroke="#3fb950" stroke-width="1" opacity="0.4"/>
+<circle cx="536.0825098388569" cy="198.61560686440686" r="3.5" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="534.4179883851848" cy="213.17359224835576" r="3.5" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="553.5525558500221" cy="203.6608140825444" r="3.5" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="554.9124536207026" cy="205.81041485552657" r="3.5" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="552.1491776518134" cy="207.22160932616097" r="3.5" fill="#3fb950" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="547.6109748930476" cy="209.91819681962784" r="7" fill="#3fb950" stroke="#e6edf3" stroke-width="1.5" opacity="1"/>
+<text x="580.085389369518" y="176.6472546688045" font-size="11" fill="#3fb950" text-anchor="middle" font-weight="700">ω₂</text>
+<text x="580.085389369518" y="190.6472546688045" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">ω=0.98</text>
+<circle cx="418.7453584419413" cy="165.6638285499256" r="26" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.12"/>
+<circle cx="418.7453584419413" cy="165.6638285499256" r="26" fill="none" stroke="#e3b341" stroke-width="1" opacity="0.4"/>
+<circle cx="419.46257532553386" cy="186.68335649167662" r="3.5" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="428.19800185364596" cy="157.64767159112102" r="3.5" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="423.2279925877351" cy="153.5073441627825" r="3.5" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="435.8767342393846" cy="158.15226364660816" r="3.5" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="410.3044728862193" cy="155.97766207596305" r="3.5" fill="#e3b341" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="418.7453584419413" cy="165.6638285499256" r="7" fill="#e3b341" stroke="#e6edf3" stroke-width="1.5" opacity="1"/>
+<text x="422.86933729916836" y="128.7189388446364" font-size="11" fill="#e3b341" text-anchor="middle" font-weight="700">ω₃</text>
+<text x="422.86933729916836" y="142.7189388446364" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">ω=1.50</text>
+<circle cx="284.9241882786504" cy="191.28980424650376" r="26" fill="#f85149" stroke="none" stroke-width="0" opacity="0.12"/>
+<circle cx="284.9241882786504" cy="191.28980424650376" r="26" fill="none" stroke="#f85149" stroke-width="1" opacity="0.4"/>
+<circle cx="304.1284240290927" cy="175.302623508188" r="3.5" fill="#f85149" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="277.1962205499648" cy="181.9628602699845" r="3.5" fill="#f85149" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="273.4165475247518" cy="184.53089327160959" r="3.5" fill="#f85149" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="280.66393110612427" cy="176.34516955917897" r="3.5" fill="#f85149" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="272.70670862397" cy="197.6639779676123" r="3.5" fill="#f85149" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="284.9241882786504" cy="191.28980424650376" r="7" fill="#f85149" stroke="#e6edf3" stroke-width="1.5" opacity="1"/>
+<text x="259.6075096999535" y="156.47235403300596" font-size="11" fill="#f85149" text-anchor="middle" font-weight="700">ω₄</text>
+<text x="259.6075096999535" y="170.47235403300596" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">ω=2.02</text>
+<circle cx="181.5246485005361" cy="280.02159893109376" r="26" fill="#a371f7" stroke="none" stroke-width="0" opacity="0.12"/>
+<circle cx="181.5246485005361" cy="280.02159893109376" r="26" fill="none" stroke="#a371f7" stroke-width="1" opacity="0.4"/>
+<circle cx="189.22527645386043" cy="292.04077673335155" r="3.5" fill="#a371f7" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="178.06435896245642" cy="280.73091963230127" r="3.5" fill="#a371f7" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="156.59815839714528" cy="280.2574770672471" r="3.5" fill="#a371f7" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="178.3617924591287" cy="284.5786605381722" r="3.5" fill="#a371f7" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="172.26918654863493" cy="287.97278980409584" r="3.5" fill="#a371f7" stroke="none" stroke-width="0" opacity="0.5"/>
+<circle cx="181.5246485005361" cy="280.02159893109376" r="7" fill="#a371f7" stroke="#e6edf3" stroke-width="1.5" opacity="1"/>
+<text x="133.46007117065403" y="252.5705618612223" font-size="11" fill="#a371f7" text-anchor="middle" font-weight="700">ω₅</text>
+<text x="133.46007117065403" y="266.5705618612223" font-size="8" fill="#484f58" text-anchor="middle" font-weight="normal">ω=2.54</text>
+<text x="605.3832970144351" y="224.61670298556493" font-size="10" fill="#30363d" text-anchor="start" font-weight="normal">|z| = 1</text>
+<rect x="22" y="680" width="360" height="110" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" opacity="1"/>
+<text x="30" y="700" font-size="11" fill="#e6edf3" text-anchor="start" font-weight="600">Legend:</text>
+<circle cx="38" cy="720" r="4" fill="#21262d" stroke="#484f58" stroke-width="1" opacity="1"/>
+<text x="50" y="725" font-size="10" fill="#8b949e" text-anchor="start" font-weight="normal">Noisy Padé poles  (mathematical artefacts)</text>
+<circle cx="38" cy="742" r="7" fill="#58a6ff" stroke="#e6edf3" stroke-width="1" opacity="1"/>
+<text x="50" y="747" font-size="10" fill="#8b949e" text-anchor="start" font-weight="normal">Physical pole  (cluster centroid on unit circle)</text>
+<rect x="28" y="760" width="20" height="12" rx="3" fill="#58a6ff" stroke="none" stroke-width="1.5" opacity="0.25"/>
+<text x="55" y="768" font-size="10" fill="#8b949e" text-anchor="start" font-weight="normal">K-means cluster region</text>
+<text x="400" y="788" font-size="9" fill="#484f58" text-anchor="middle" font-weight="normal">Step: Padé roots → K-means cluster upper half-circle → LASSO selects non-zero amplitudes</text>
+</svg>
